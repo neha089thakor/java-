@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the binary value of a:");
+        int a= sc.nextInt();
+        System.out.println("Enter the binary value of b:");
+        int b= sc.nextInt();
+        if((a<0 || a>=2) || (b<0 || b>=2)){
+            System.out.println("Enter the valid input");
+        }
+        else{
+            if(a==1 || b==1){
+                System.out.println("True");
+            }
+            else{
+                System.out.println("False");
+            }
+        }
+
+    }
+}
